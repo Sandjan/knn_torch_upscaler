@@ -2,7 +2,7 @@
 
 ## Overview
 
-This is a hobby project that implements a simple edge-enhancement upscaler. It doesn't create new details (because it only uses the information that are already in the image) but rather tries to sharpen existing edges through patch matching. Results often have a "painted" look due to the limitations of the approach.
+This is a hobby project that implements a patch based knn image upscaler. It doesn't create new details (because it only uses the information that is already contained in the image) but rather tries to sharpen existing edges through patch matching. Results often have a "painted" look due to the limitations of the approach.
 
 ## Examples
 
