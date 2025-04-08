@@ -8,37 +8,23 @@ This is a hobby project that implements a simple edge-enhancement upscaler. It d
 
 ### Comparison Set 1
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 32%;">
-    <img src="examples/butterfly.png" alt="Original" width="100%">
-    <p align="center">Original</p>
-  </div>
-  <div style="width: 32%;">
-    <img src="examples/butterfly_lr.png" alt="Bilinear Upscaling" width="100%">
-    <p align="center">Bilinear Upscaling</p>
-  </div>
-  <div style="width: 32%;">
-    <img src="examples/butterfly_upscaled.png" alt="Our Method" width="100%">
-    <p align="center">KNN Upscaler</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="examples/butterfly.png" width="256"><br><p align="center">Original</p></td>
+    <td><img src="examples/butterfly_lr.png" width="256"><br><p align="center">Bilinear Upscaling</p></td>
+    <td><img src="examples/butterfly_upscaled.png" width="256"><br><p align="center">KNN Upscaler</p></td>
+  </tr>
+</table>
 
 ### Comparison Set 2
 
-<div style="display: flex; justify-content: space-between;">
-  <div style="width: 32%;">
-    <img src="examples/flower.png" alt="Original" width="100%">
-    <p align="center">Original</p>
-  </div>
-  <div style="width: 32%;">
-    <img src="examples/flower_lr.png" alt="Bilinear Upscaling" width="100%">
-    <p align="center">Bilinear Upscaling</p>
-  </div>
-  <div style="width: 32%;">
-    <img src="examples/flower_upscaled.png" alt="Our Method" width="100%">
-    <p align="center">KNN Upscaler</p>
-  </div>
-</div>
+<table>
+  <tr>
+    <td><img src="examples/flower.png" width="256"><br><p align="center">Original</p></td>
+    <td><img src="examples/flower_lr.png" width="256"><br><p align="center">Bilinear Upscaling</p></td>
+    <td><img src="examples/flower_upscaled.png" width="256"><br><p align="center">KNN Upscaler</p></td>
+  </tr>
+</table>
 
 ## What it actually does
 
