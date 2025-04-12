@@ -4,8 +4,8 @@
 
 This is a hobby project that implements a patch based knn image upscaler. It doesn't create new details (because it only uses the information that is already contained in the image) but rather tries to sharpen existing edges through patch matching. Results often have a "painted" look due to the limitations of the approach.
 
-## Examples
-
+## Examples (x4 upscaling)
+The original image was downsampled with area (factor 4) and upscaled again with Bilinear and the KNN upscaler for comparison. The original image would therefore correspond to perfect upscaling in the comparison.  
 ### Comparison Set 1
 
 <table>
